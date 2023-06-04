@@ -1,0 +1,493 @@
+/* Reseting some default styles to ensure consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Markazi Text', serif;
+}
+
+/* Utility classes */
+
+.margin-r2{
+  margin-right: 2rem;
+}
+
+.gray-highlight {
+  box-shadow: 0 1.5rem 1.5rem rgba(171, 170, 168, 0.5);
+}
+
+.dark-text-highlight {
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+/* Colors */
+
+:root {
+  --primary-color: #F6F1E9;
+  --secondary-color: #454545;
+  --lemon: #F8D000;
+}
+
+/* Body styles */
+body {
+  margin: 3rem 7%;
+  background-color:var(--primary-color);
+}
+
+/* Header styles */
+
+header > img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Nav styles */
+
+nav {
+  margin: 1.5rem auto ;
+  background-color: var(--secondary-color);
+  padding: 0.7rem 1rem;
+  border-radius: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-inline-start: 0rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav a {
+  font-size: 1.2rem;
+  padding: 5px 15px;
+  margin: 0 10px;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.5s ease;           
+}
+
+nav ul a:active {
+  text-decoration: underline;
+}
+
+nav a:hover {
+  color: var(--lemon);
+  text-decoration: underline;
+  text-decoration-thickness: 0.1rem;
+}
+
+.menu {
+  cursor: pointer;
+  display: none;  
+  margin-top: 1rem;
+}
+
+.menu .bar {
+  display: block;
+  width: 28px;
+  height: 3px;
+  border-radius: 3px;
+  background-color: var(--primary-color);
+  margin: 5px auto;
+  transition: all 0.3s;
+}
+
+.menu .bar:nth-child(1),
+.menu .bar:nth-child(3) {
+  background-color: var(--lemon);
+}
+
+/* Main styles */
+
+h1, h2, p {
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.3rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 5px 10px rgba(248, 208, 0, 0.5);
+  width: fit-content;
+  margin: 1rem auto;
+}
+
+h2 {
+  font-size: 2rem;
+  text-shadow: 0 5px 10px rgba(248, 208, 0, 0.7);
+  width: fit-content;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 1.3;
+  font-size: 1.3rem;
+}
+
+section {
+  display: flex;
+  gap: 2rem 1rem;
+  margin: 1rem auto;
+}
+
+article {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+article img {
+  max-width: 100% !important;
+  border-radius: 1rem;
+}
+
+ .promotional-banner {
+   background-color: var(--primary-color);
+   background-size: cover;
+   /* background-position: 75%; */
+   position: relative;
+}
+
+.promotional-banner-text {
+  position: absolute;
+  top: 30%;
+  padding: 0.5rem 3rem;
+}
+
+.promotional-banner h1 {
+  font-size: 400%;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-align: left;
+  margin: 0;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.promotional-banner p {
+  max-width: 100%;
+  font-size: 220%;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-align: left;
+  margin: 0;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.food-item img {
+padding: 0.5rem;
+
+}
+
+/* Footer styles */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.footer-logo, .footer-text {
+  flex-basis: 50%;
+}
+
+.footer-logo {
+  text-align: right;
+}
+
+.footer-text {
+  text-align: left;
+}
+
+footer p {
+  margin: 0;
+  display: inline-block;
+}
+
+footer img {
+  max-width: 50px;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  section {
+    flex-direction: column;
+  }
+
+  article {
+    flex: none;
+    margin-bottom: 1rem;
+    margin-right: 0 !important;
+  }
+
+  nav li {
+    display: block;
+  }
+
+  .promotional-banner-text {
+    position: absolute;
+    top: 15%;
+    padding: 0.5rem 2rem;
+  }
+
+  .promotional-banner h1 {
+    font-size: 350%;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: left;
+    margin: 0;
+  }
+
+  .promotional-banner p {
+    max-width: 100%;
+    font-size: 170%;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: left;
+    margin: 0;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .menu.ativo span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .menu.ativo span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu.ativo span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .nav-menu.ativo {
+    display: flex;
+  }
+
+  nav ul {
+    flex-direction: column;
+    transition: 0.5s;
+  }
+
+  nav ul li {
+    margin: 0.5rem;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .promotional-banner-text {
+    position: absolute;
+    top: 20%;
+    padding: 0.5rem 2rem;
+  }
+
+  .promotional-banner h1 {
+    font-size: 420%;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: left;
+    margin: 0;
+  }
+
+  .promotional-banner p {
+    max-width: 100%;
+    font-size: 180%;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: left;
+    margin: 0;
+  }
+
+}
+
+@media (min-width: 1260px) {
+
+  .promotional-banner-text {
+    position: absolute;
+    top: 30%;
+    padding: 0.5rem 2.5rem;
+  }
+
+  .promotional-banner h1 {
+    font-size: 450%;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: left;
+    margin: 0;
+  }
+
+  .promotional-banner p {
+    max-width: 100%;
+    font-size: 210%;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: left;
+    margin: 0;
+  }
+
+
+}
+
+@media (max-width: 604px) and (max-width: 609px) {
+  .promotional-banner-text {
+    position: absolute;
+    top: 7%;
+    padding: 1.4rem 2.5rem;
+  }
+
+  .promotional-banner h1 {
+    font-size: 290%;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: left;
+    margin: 0;
+  }
+
+   .promotional-banner p {
+    max-width: 100%;
+    font-size: 120%;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: left;
+    margin: 0;
+  }
+}
+
+@media (max-width: 605px) {
+  .promotional-banner-text {
+    position: absolute;
+    top: 20%;
+    padding: 0.5rem 2.5rem;
+  }
+
+  .promotional-banner h1 {
+    font-size: 300%;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: left;
+    margin: 0;
+  }
+
+  .promotional-banner p {
+    max-width: 100%;
+    font-size: 130%;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: left;
+    margin: 0;
+  }
+}
+
+@media (max-width: 552px) {
+  .promotional-banner-text {
+    position: absolute;
+    top: 10%;
+    padding: 0.5rem 2.5rem;
+  }
+
+  .promotional-banner h1 {
+    font-size: 210%;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: left;
+    margin: 0;
+  }
+
+  .promotional-banner p {
+    max-width: 100%;
+    font-size: 80%;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: left;
+    margin: 0;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 552px) {
+    .promotional-banner-text {
+    position: absolute;
+    top: 20%;
+    padding: 0.5rem 2.5rem;
+  }
+
+  .promotional-banner h1 {
+    font-size: 215%;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: left;
+    margin: 0;
+  }
+
+  .promotional-banner p {
+    max-width: 100%;
+    font-size: 95%;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: left;
+    margin: 0;
+  }
+}
+
+
+@media (max-width: 360px) {
+  .promotional-banner-text {
+    position: absolute;
+    top: 20%;
+    padding: 0.5rem 2.5rem;
+  }
+
+  .promotional-banner h1 {
+    font-size: 200%;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: left;
+    margin: 0;
+  }
+
+  .promotional-banner p {
+    display: none;
+  }
+}
+
+@media (max-width: 290px) {
+   .promotional-banner h1 {
+    display: none;
+  }
+
+  .promotional-banner p {
+    display: none;
+  }
+}
+
+
