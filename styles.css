@@ -437,12 +437,12 @@ footer img {
 @media (min-width: 411px) and (max-width: 552px) {
     .promotional-banner-text {
     position: absolute;
-    top: 20%;
+    top: 12%;
     padding: 0.5rem 2.5rem;
   }
 
   .promotional-banner h1 {
-    font-size: 215%;
+    font-size: 210%;
     font-weight: 700;
     color: var(--primary-color);
     text-align: left;
@@ -451,7 +451,7 @@ footer img {
 
   .promotional-banner p {
     max-width: 100%;
-    font-size: 95%;
+    font-size: 100%;
     font-weight: 700;
     color: var(--primary-color);
     text-align: left;
