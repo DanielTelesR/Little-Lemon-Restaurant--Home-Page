@@ -17,4 +17,4 @@
   <li>Utilization of HTML and CSS best practices for semantic markup, accessibility, and efficient code structure.</li>
   <li>Implementation of vanilla JavaScript for interactivity and dynamic functionality where appropriate.</li>
 </ul>
-<h3>Please note that this repository represents my individual creative work and is not affiliated with any real-world establishment</h3>
+<h3>Please note that this repository represents my individual creative work and is not affiliated with any real-world establishment.</h3>
