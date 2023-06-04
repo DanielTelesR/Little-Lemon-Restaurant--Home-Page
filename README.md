@@ -5,15 +5,16 @@
 
 <p>This repository hosts the authorial Little Lemon Restaurant landing page, created as the final graded assessment for the "HTML and CSS in Depth" course offered by Meta. The landing page showcases the concept and design for a fictional restaurant, Little Lemon, offering a unique dining experience.</p>
 
-<p>The landing page is meticulously crafted using HTML, CSS, and vanilla JavaScript to demonstrate proficiency in web development skills. The design reflects the vision and creativity of the creator, with attention to detail and a focus on providing an immersive user experience.</p>
+<p> I created this landing page as my final graded assessment for the "HTML and CSS in Depth" course provided by Meta. It serves as a testament to my creativity, skills, and proficiency in web development.</p>
+<p>Using HTML, CSS, and vanilla JavaScript, I brought my vision of Little Lemon Restaurant to life. Every aspect of the design reflects my meticulous attention to detail, with a strong focus on delivering an immersive user experience that captures the essence of this fictional restaurant.</p>
 
 <h2> 🎯Key Features:</h2>
 <ul>
   <li>Custom design and layout, tailored to the fictional Little Lemon Restaurant concept.</li>
   <li>Responsive and mobile-friendly design to ensure seamless viewing on various devices and screen sizes.</li>
-  <li>Thoughtfully organized sections, including a visually appealing hero section, menu showcase, reservation form, and contact information.</li>
-  <li>Carefully chosen typography, color palette, and imagery to evoke the desired atmosphere and brand identity of Little Lemon Restaurant.</li>
+  <li>Thoughtfully organized sections.</li>
+  <li>I carefully selected typography, color palettes, and imagery that align with the desired atmosphere and brand identity of Little Lemon Restaurant</li>
   <li>Utilization of HTML and CSS best practices for semantic markup, accessibility, and efficient code structure.</li>
   <li>Implementation of vanilla JavaScript for interactivity and dynamic functionality where appropriate.</li>
 </ul>
-<h3>Please note that this repository represents an individual's creative work and is not associated with any real-world establishment.</h3>
+<h3>Please note that this repository represents my individual creative work and is not affiliated with any real-world establishment</h3>
