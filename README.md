@@ -1,12 +1,12 @@
-<h1>Little-Lemon-Restaurant - Landing-Page</h1>
+<h1>Little-Lemon-Restaurant - Home Page</h1>
 
 ![image](https://github.com/DanielTelesR/Little-Lemon-Restaurant---Landing-Page/assets/110556268/73aaa805-5f33-484c-80dc-b7285866c4fc)
 
 
-<p>This repository hosts the authorial Little Lemon Restaurant landing page, created as the final graded assessment for the "HTML and CSS in Depth" course offered by Meta. The landing page showcases the concept and design for a fictional restaurant, Little Lemon, offering a unique dining experience.</p>
+<p>As the final graded assessment in the "HTML and CSS in Depth" course provided by Meta, I had the opportunity to showcase my skills by creating a captivating homepage for a fictional client. For this project, I chose the enchanting restaurant: Little Lemon, based in Chicago, Illinois. 🍋🍽️</p>
 
-<p> I created this landing page as my final graded assessment for the "HTML and CSS in Depth" course provided by Meta. It serves as a testament to my creativity, skills, and proficiency in web development.</p>
-<p>Using HTML, CSS, and vanilla JavaScript, I brought my vision of Little Lemon Restaurant to life. Every aspect of the design reflects my meticulous attention to detail, with a strong focus on delivering an immersive user experience that captures the essence of this fictional restaurant.</p>
+<p> Little Lemon is a family-owned Mediterranean restaurant that beautifully blends traditional recipes with a modern twist. Inspired by Italian, Greek, and Turkish cuisines, the menu offers a delightful selection of 12–15 seasonal dishes.</p>
+<p>Throughout this journey, I had the opportunity to apply the concepts of semantic HTML tags, effectively structuring the provided information. Additionally, I utilized CSS techniques to create a unique user experience, employing grids and flexbox to optimize the layout. CSS selectors and animations allowed me to add interactivity and captivating effects to the webpage. 🌐💻</p>
 
 <h2> 🎯Key Features:</h2>
 <ul>
